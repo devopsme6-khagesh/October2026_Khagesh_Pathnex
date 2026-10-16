@@ -1,4 +1,6 @@
  i practiced 30 min of english speaking.
  i practiced coding of day 16 of this month
  i took morning class about kubernetes + HELM
- i will do practical today of Helm with kubernetes
+ i will do practical today of Helm with kubernetes.
+
+Also i will prepare for evening class.

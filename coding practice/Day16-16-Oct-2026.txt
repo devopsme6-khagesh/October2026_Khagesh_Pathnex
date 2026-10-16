@@ -113,31 +113,7 @@ pipeline {
     }
 }
 
-##  GitLab CI — Run Tests
-You will learn how to **run unit and integration tests in GitLab CI**.
 
-stages:
-  - unit
-  - integration
-
-variables:
-  INSTITUTE_NAME: "Pathnex"
-  TEAM: "QA"
-  ENV: "dev"
-
-unit-test:
-  stage: unit
-  image: maven:3.8.1-jdk-17
-  script:
-    - mvn test -Dgroup=unit
-    - echo "Unit tests completed for $INSTITUTE_NAME by $TEAM in $ENV"
-
-integration-test:
-  stage: integration
-  image: maven:3.8.1-jdk-17
-  script:
-    - mvn verify -Dgroup=integration
-    - echo "Integration tests completed for $INSTITUTE_NAME by $TEAM in $ENV"
 
 ##  GitLab CI — Trigger on Tag
 You will learn how to **trigger CI jobs when a tag is pushed**.
@@ -157,3 +133,19 @@ build:
     - echo "Building $INSTITUTE_NAME app for $TEAM team in $ENV environment"
   only:
     - tags
+
+##  GitLab CI — Manual Approval Job
+You will learn how to **use manual jobs in GitLab CI for approvals**.
+
+stages:
+  - deploy
+
+variables:
+  INSTITUTE_NAME: "Pathnex"
+
+deploy:
+  stage: deploy
+  image: alpine:latest
+  script:
+    - echo "Ready to deploy $INSTITUTE_NAME"
+  when: manual
