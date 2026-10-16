@@ -1,0 +1,22 @@
+Hi everyone, good evening.
+In today's session, we continued our practical work with AWS EKS and Kubernetes.
+As we ended yesterday's class, we had destroyed our application and its infrastructure. So, today, we tried to create everything again using Terraform. We ran the command terraform apply -auto-approve.
+Initially, we faced an error because we needed to configure the ARN and certificate again. After correcting the configuration, the application started working.
+Then, we used Kubernetes commands like k get pods -A to check the pods across all namespaces and verify our resources. We also practiced commands like k create ns nginx, k get vs -A, k get svc -A, k get storageclass, and k get all. These commands helped us check namespaces, Virtual Services, services, storage classes, and other resources in the cluster.
+After that, we tried to access our web application through the browser, but it was not opening. We received an error, so we started troubleshooting the issue, just like we did yesterday.
+We checked the AWS security group and allowed the required HTTP traffic. After making this change, we were able to access the application successfully.
+From this, we learned that even if our application is running properly inside Kubernetes, we might not be able to access it from outside if the networking or security group configuration is incorrect. We also understood how the load balancer and security group rules help control traffic reaching our application.
+Next, we learned about the rolling update strategy in Kubernetes. This allows us to update an application gradually without stopping everything at once.
+We discussed two important settings: maxUnavailable and maxSurge. In our example, we had eight replicas, with 25% maximum unavailable and 50% maximum surge.
+So, 25% of eight is two, which means up to two pods can be unavailable during the update. Similarly, 50% of eight is four, meaning Kubernetes can create up to four additional pods during the rollout, depending on the deployment configuration and available resources.
+We also learned about Pod Disruption Budgets, or PDBs. They help maintain application availability during certain voluntary disruptions. We understood that PDB configuration is separate from the rolling update strategy.
+After that, we discussed two important commands: kubectl cordon and kubectl drain.
+Cordon is used to prevent new pods from being scheduled on a particular node. The existing pods continue running. Drain is used to safely evict eligible pods from a node so that we can perform maintenance on it. This helps us manage nodes without unnecessarily affecting the application.
+We also learned about DaemonSets and StatefulSets. A DaemonSet is generally used to run a copy of a pod on each eligible node, such as for logging or monitoring. StatefulSets are useful for applications like databases that need stable identities and persistent storage.
+Then, we discussed the Metrics Server and autoscaling tools like HPA, KEDA, and Karpenter. HPA helps scale the number of application pods based on metrics. KEDA supports event-driven scaling, while Karpenter helps manage and provision Kubernetes nodes based on workload requirements.
+Finally, we covered the basics of Persistent Volumes and Persistent Volume Claims. A Persistent Volume, or PV, represents storage available to the cluster, while a Persistent Volume Claim, or PVC, is a request for storage made by an application.
+Overall, today's session was very useful because we learned not only how to deploy and access applications, but also how to troubleshoot networking issues, manage nodes, perform rolling updates, scale workloads, and handle storage in Kubernetes.
+Thank you, everyone.
+
+Secondly, i practiced coding of docker and english speaking about 30 mins.
+

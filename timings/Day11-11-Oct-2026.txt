@@ -1,0 +1,11 @@
+Today, i did practice of code Ansible, Terraform, Kubernetes.
+In today's morning session we learned about Kubernetes.If i talk about kubernetes , this a opensource plateform to automate the deployment, scaling and management of containerised apps.
+
+ 1. The benefits of kubernetes are-
+  # Deplying and managing the containers
+  # Scaling applications
+  # balance the network traffic
+  # Maintaining desired application state
+
+
+ Also i did practice of evening class in english.

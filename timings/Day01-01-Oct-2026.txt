@@ -1,0 +1,3 @@
+ i created github accpount
+ i created repo with public accessbility
+ i installed the git in ubuntu EC2 machine.
