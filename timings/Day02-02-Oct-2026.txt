@@ -1,0 +1,5 @@
+On date 02 Oct
+
+i did practice of tools code like terraform, ansible,bash scripting.
+i took class about roadmap of devops and understand about different tools used in devops
+i will practice 30 min

@@ -1,0 +1,14 @@
+In today's session we covered about cloudwatch in which we monitor the resource consumption of cpu, memory etc.
+   1. Lambda- this service used for microservice to run code or service for a small time.
+
+   2. AWS Shield- it prevents and protect from unwanted traffice or we can say attacks. this server protects resources like cloudfront ,route 53 and many more
+  
+   3. aws WAF- which is Amzon web services Web application firewall      this dervice protech our web hosted application from security threats, we can intregrate this service from coudfront and api gateway to prevent malicious traffic
+
+
+I practiced english speaking for 30 mins
+
+Thank you!
+
+This is my learning 8
+date- 8 October 2026
