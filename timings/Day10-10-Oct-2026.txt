@@ -1,0 +1,2 @@
+My ec2 server got crashed somehow and already i pushed 16Oct multiple times but i am getting 
+pull and comapre confliction so i am triying to push in previous date to check root cause.
