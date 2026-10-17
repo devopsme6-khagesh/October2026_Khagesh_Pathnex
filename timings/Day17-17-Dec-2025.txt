@@ -1,0 +1,6 @@
+In today's session we learned about ArgoCD. Argocd is a gitops- based tool for kubernetes. I simple words, if say it connects the git repo with kubernetes cluster and helps keep cluster in sync with stored in Git.
+
+I practiced of interview intro for 20 minutes.
+I practiced of english speaking og 30 30 minutes.
+
+Also i took class about devops Ai.
