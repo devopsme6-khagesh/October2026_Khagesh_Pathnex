@@ -1,0 +1,5 @@
+In today's morning class , we learned about terraform infrastructure as a code Iac. and its key components. In this tool we create resources of cloud infra such as AWS, GCP, Azure etc... 
+
+i prepared for interview intro but not getting himmat to upload.
+
+I practiced english speaking for 30 min
