@@ -1,0 +1,3 @@
+Today i practiced the code writing of Ansible, Terraform and git lab ci,Kubernetes,Shell script,jekins Pipeline.
+
+English speaking for 30 mins.
