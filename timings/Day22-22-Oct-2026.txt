@@ -1,0 +1,3 @@
+Hi, good evening all, in todays class we covered the monitoring of EKS cluster in which we learned how to monitoring the running services.I tried to upload intro video but not getting himmat to upload.
+
+I practiced 30 min of english speaking.
