@@ -1,0 +1,5 @@
+Today i hosted site by using docker and it was learning practicle like how to build container, how to run the containers , check the running containers and proccesses.
+
+I uploaded my intro video first time and the feedback provided i little bit confident i will try to keep it up and daily practice to intro.
+
+Also i commnted the video.
