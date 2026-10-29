@@ -1,0 +1,7 @@
+I todays session we learned about SSl and TLS that how it does work, how to create own certificate and how we use the digital certificates and many more functionality with importance.
+
+i revised and did practicle about docker.
+
+i practiced the english speaking for 10 to 15 mins.
+
+Finally i will upload the intro video today.
